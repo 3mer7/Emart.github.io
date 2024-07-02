@@ -1529,10 +1529,6 @@ header .links ul .close_menu_btn,
         display: none;
     }
 
-    .features .featuers_item{
-
-    }
-
     .checkout .container {
         flex-direction: column-reverse;
         gap: 50px;
