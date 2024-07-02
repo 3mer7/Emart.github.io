@@ -80,7 +80,8 @@
     font-size: 18px;
     box-shadow: rgba(0,0,0,0.25) 0px 3px 8px;
     font-weight: bold;
-    margin-block: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .sign-up-label{
@@ -126,7 +127,8 @@
     background-color: #000;
     color: #fff;
     border:1px solid #000;
-    margin-block: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .button-container .google-login-btn {
@@ -140,6 +142,13 @@
         border-radius: 0;
         box-shadow: none;
     }
+
+    .form input {
+        margin-top:10px;
+        margin-bottom:10px;
+    
+    }
+    
 
 }
 

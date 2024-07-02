@@ -1546,6 +1546,10 @@ header .links ul .close_menu_btn,
     .checkout .ordersummary .total p {
         font: 22px;
     }
+
+    .all_products .products_div .product{
+        margin: 0 8px;
+    }
 }
 
 
