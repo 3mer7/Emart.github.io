@@ -1548,7 +1548,7 @@ header .links ul .close_menu_btn,
     }
 
     .all_products .products_div .product{
-        margin: 0 8px;
+        width: 45%;
     }
 }
 
