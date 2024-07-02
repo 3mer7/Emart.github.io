@@ -107,7 +107,6 @@ header .top-nav .search button{
 
 header .top-nav .cart_header{
     display: flex;
-    gap: 10px;
     align-items: center;
 }
 
@@ -122,6 +121,7 @@ header .top-nav .cart_header i {
     border-radius: 50%;
     cursor: pointer;
     transition: .3s ease;
+    margin-right: 20px;
 }
 
 .icon_cart{
