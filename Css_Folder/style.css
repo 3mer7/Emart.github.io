@@ -413,20 +413,21 @@ header  .links .login a {
     border-radius: 5px;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px;
 }
 
 .features .featuers_item .icon i{
     color: var(--maincolor);
     font-size: 50px;
+    margin-right: 20px;
 }
 
 .features .featuers_item{
     display: flex;
     width: 18%;
     min-width: 220px;
-    gap: 20px;
     align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .features .featuers_item .text h4{
@@ -1267,12 +1268,12 @@ header .links ul .close_menu_btn,
     width: calc(100% - 300px);
     display: flex;
     flex-wrap: wrap;
-    gap: 2.5%;
 }
 
 .all_products .products_div .product{
     width: 22%;
     margin-bottom: 30px;
+    margin-right: 10px;
 }
 
 .pagination{
@@ -1523,6 +1524,14 @@ header .links ul .close_menu_btn,
 }
 
 @media (max-width:1000px){
+
+    .banner{
+        display: none;
+    }
+
+    .features .featuers_item{
+
+    }
 
     .checkout .container {
         flex-direction: column-reverse;
