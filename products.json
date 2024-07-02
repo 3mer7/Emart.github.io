@@ -1,0 +1,239 @@
+[
+    {
+        "id":0,
+        "img":"images/product-1.jpg",
+        "name":" iphone 14 256GB ",
+        "price": 3000,
+        "oldPrice":3200
+    },
+
+    {
+        "id":1,
+        "img":"images/product-2.jpg",
+        "name":" iphone 12 128GB ",
+        "price": 2500,
+        "oldPrice":2800
+    },
+
+    {
+        "id":2,
+        "img":"images/product-3.jpg",
+        "name":" iphone 11 512GB ",
+        "price": 2300,
+        "oldPrice":2900
+    },
+
+    {
+        "id":3,
+        "img":"images/product-4.jpg",
+        "name":" iphone 15Pro  ",
+        "price": 5000,
+        "oldPrice":5300
+    },
+
+    {
+        "id":4,
+        "img":"images/product-5.jpg",
+        "name":" iphone 12 256GB ",
+        "price": 3200,
+        "oldPrice":3650
+    },
+
+    {
+        "id":5,
+        "img":"images/product-6.jpg",
+        "name":" Xiaomi 256GB ",
+        "price": 5000,
+        "oldPrice":5300
+    },
+
+    {
+        "id":6,
+        "img":"images/product-7.jpg",
+        "name":" OPPA A38 256GB ",
+        "price": 1200,
+        "oldPrice":1500
+    },
+
+    {
+        "id":7,
+        "img":"images/product-8.jpg",
+        "name":" iphone 15Pro Max ",
+        "price": 5500,
+        "oldPrice":6200
+    },
+    {
+        "id":8,
+        "img":"images/product-9.jpg",
+        "name":" iphone 15 256GB ",
+        "price": 4300,
+        "oldPrice":4700
+    },
+
+    {
+        "id":9,
+        "img":"images/product-10.jpg",
+        "name":" iphone 13 256GB ",
+        "price": 3200,
+        "oldPrice":3700
+    },
+
+    {
+        "id":10,
+        "img":"images/product-11.jpg",
+        "name":"JBL  Headphones",
+        "price": 900
+    },
+
+    {
+        "id":11,
+        "img":"images/product-12.jpg",
+        "name":"Sony  Headphones",
+        "price": 1200
+    },
+
+    {
+        "id":12,
+        "img":"images/product-13.jpg",
+        "name":"LG Projector",
+        "price": 5000
+    },
+
+    {
+        "id":13,
+        "img":"images/product-24.jpg",
+        "name":"Gaming Projector",
+        "price": 4300
+    },
+
+    {
+        "id":14,
+        "img":"images/product-15.jpg",
+        "name":"Apple Monitor",
+        "price": 7000
+    },
+
+    {
+        "id":15,
+        "img":"images/product-25.jpg",
+        "name":"Ezviz  Camera",
+        "price": 3900
+    },
+
+    {
+        "id":16,
+        "img":"images/product-17.jpg",
+        "name":"Huawei MatePad ",
+        "price": 2350
+    },
+
+    {
+        "id":17,
+        "img":"images/product-18.jpg",
+        "name":"Apple iPad ",
+        "price": 3400
+    },
+
+    {
+        "id":18,
+        "img":"images/product-19.jpg",
+        "name":"Apple MacBook",
+        "price": 8900
+    },
+
+    {
+        "id":19,
+        "img":"images/product-20.jpg",
+        "name":"Apple Mac",
+        "price": 9000
+    },
+
+    {
+        "id":20,
+        "img":"images/product-21.jpg",
+        "name":"Apple AirPods",
+        "price": 65
+    },
+
+        
+    {
+        "id":21,
+        "img":"images/non-iphone-1.jpg",
+        "name":"Samsung Galaxy S23 Ultra",
+        "price": 3400,
+        "boolean":true
+    },
+
+    {
+        "id":22,
+        "img":"images/non-iphone-1.jpg",
+        "name":"Samsung Galaxy S23 Ultra",
+        "price": 3400,
+        "boolean":true
+    },
+
+    {
+        "id":23,
+        "img":"images/non-iphone-1.jpg",
+        "name":"Samsung Galaxy S23 Ultra",
+        "price": 3400,
+        "boolean":true
+    },
+
+    {
+        "id":24,
+        "img":"images/non-iphone-1.jpg",
+        "name":"Samsung Galaxy S23 Ultra",
+        "price": 3400,
+        "boolean":true
+    },
+
+    {
+        "id":25,
+        "img":"images/non-iphone-1.jpg",
+        "name":"Samsung Galaxy S23 Ultra",
+        "price": 3400,
+        "boolean":true
+    },
+
+    {
+        "id":26,
+        "img":"images/non-iphone-1.jpg",
+        "name":"Samsung Galaxy S23 Ultra",
+        "price": 3400,
+        "boolean":true
+    },
+
+    {
+        "id":27,
+        "img":"images/non-iphone-1.jpg",
+        "name":"Samsung Galaxy S23 Ultra",
+        "price": 3400,
+        "boolean":true
+    },
+
+    {
+        "id":28,
+        "img":"images/non-iphone-1.jpg",
+        "name":"Samsung Galaxy S23 Ultra",
+        "price": 3400,
+        "boolean":true
+    },
+
+    {
+        "id":29,
+        "img":"images/non-iphone-1.jpg",
+        "name":"Samsung Galaxy S23 Ultra",
+        "price": 3400,
+        "boolean":true
+    },
+
+    {
+        "id":30,
+        "img":"images/non-iphone-1.jpg",
+        "name":"Samsung Galaxy S23 Ultra",
+        "price": 3400,
+        "boolean":true
+    }
+
+]

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce | Website </title>
+    <!-- Css links  -->
+    <link rel="stylesheet" href="../Css_Folder/style.css">
+    <link rel="stylesheet" href="../Css_Folder/login-reg.css">
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+
+
+    <!-- Header -->
+    <header>
+        <div class="container top-nav">
+            <a href="home.html"><img src="../images/logo-2.jpeg" alt="" width="120px"></a>
+            <form action="" class="search">
+                <input type="search" placeholder="search..">
+                <button type="submit">Search</button>
+            </form>
+            
+            <div class="cart_header">
+                <div onclick="open_cart()" class="icon_cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="count_item">0</span>
+                </div>
+
+                <div class="total_price">
+                    <p>My cart</p>
+                    <p class="Price_cart_head">$0</p>
+                </div>
+            </div>
+        </div>
+
+
+        <nav>
+            <div class="links container">
+
+                <i class="fa-solid fa-bars open_menu"></i>
+                <ul class="menu_links">
+
+                    <span class="overlay"></span>
+                    <i class="fa-solid fa-xmark close_menu_btn"></i>
+                    <img src="../images/logo-2.jpeg" class="logo_menu" width="140px"alt="">
+
+
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="Allproduct.html">All Products</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                
+                <div class="login">
+                    <a href="signin.html">SignUp <i class="fa-solid fa-user-plus"></i></a>
+                </div>
+            </div>
+            </nav>
+
+    </header>
+
+    <!-- side_cart -->
+    <div class="cart_product ">
+        <div class="top_cart">
+            <h3>My cart <span class="count_of_items_in_cart">(0 Items in Cart)</span></h3>
+            <span class="close_cart" onclick="close_cart()"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+
+        <div class="items_in_cart">
+        </div>
+        
+        <div class="bottom_cart">
+            <div class="total">
+                <p>cart Subtotal</p>
+                <p class="price_cart_total">$0</p>
+            </div>
+            
+            
+            <div class="button_cart">
+                
+                <a href="item_page.html" class="btn_cart">Proceed To Checkout</a>
+                    <button  onclick="close_cart()" class="btn_cart trans_bg">Shop more</button>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Login Content -->
+
+    <section class="signin sec_form">
+        <div class="form_container">
+            <p class="title">Welcome Back</p>
+
+            <form action="" class="form">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Passwoard">
+                <p class="page-link"><a href="#"  class="page-link-label">Forget Passward?</a></p>
+
+                <button class="form-btn">Login</button>
+
+                <p class="sign-up-label">
+                    Don't Have an account? <a href="#" class="sign-up-link">Sign up</a>
+                </p>
+
+                <div class="button-container">
+                    <div class="apple-login-btn">
+                        <i class="fa-brands fa-apple"></i>
+                        <span>Login with Apple</span>
+                    </div>
+
+                    <div class="google-login-btn">
+                        <i class="fa-brands fa-google"></i>
+                        <span>Login with Google</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+
+            <div class="big_row">
+
+                <img src="../images/logo-2.jpeg" alt="" width="120px">
+
+                <div class="hotline">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <div class="text">
+                        <h5>Hotline free 24/7</h5>
+                        <h6>(+211) 123 456 789</h6>
+                    </div>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                nama quaerat.</p>
+            </div>
+
+            <div class="row">
+                <h4>FAQ's & Help</h4>
+
+                <div class="links">
+                    <a href="">F.A.Q's</a>
+                    <a href="">Order Tracking</a>
+                    <a href="">Conatcts</a>
+                    <a href="">Events</a>
+                    <a href="">Help center</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <h4>Shipping & Delievery</h4>
+
+                <div class="links">
+                    <a href="">Delievery Information</a>
+                    <a href="">Discount</a>
+                    <a href="">Payment Methods</a>
+                    <a href="">Estimted time taken</a>
+                    <a href="">Shipping Guide</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <h4>Information</h4>
+
+                <div class="links">
+                    <a href="">Popular</a>
+                    <a href="">Our Services</a>
+                    <a href="">Your Account</a>
+                    <a href="">Privacy & Policy</a>
+                    <a href="">Terms & Condition</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom_footer">
+            <div class="container">
+                <p>Copyroght &copy; <span>Emart</span>All right reserved</p>
+
+                <div class="payment_images">
+                    <img src="../images/Payment-1.png" alt="" width="80px">
+                    <img src="../images/payment-2.png" alt="" width="80px" height="60px">
+                    <img src="../images/payment-3.png" alt="" width="80px">
+                    <img src="" alt="">
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
