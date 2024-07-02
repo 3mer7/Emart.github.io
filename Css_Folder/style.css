@@ -22,7 +22,7 @@
 
 body{
     background-color: #f5f6f9;
-    margin-top: 180px;
+    margin-top: 162px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -944,7 +944,7 @@ header .links ul .close_menu_btn,
 @media(max-width:900px){
 
     body{
-        margin-top: 240px;
+        margin-top: 227px;
     }
     header .top-nav {
         flex-wrap: wrap;
