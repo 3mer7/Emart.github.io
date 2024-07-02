@@ -311,7 +311,6 @@ header  .links .login a {
 .cart_product .button_cart {
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .cart_product .button_cart .btn_cart{
@@ -325,6 +324,7 @@ header  .links .login a {
     background-color: var(--maincolor);
     transition: .3s ease;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 
 .cart_product .button_cart .btn_cart:hover{
@@ -338,6 +338,8 @@ header  .links .login a {
 .cart_product .button_cart .trans_bg:hover{
     background-color: var(--maincolor);
 }
+
+
 
 /* End Cart*/
 
@@ -898,7 +900,6 @@ header .links ul .close_menu_btn,
 
 @media(max-width:1000px){
 
-    H
 
     header .top-nav .search{
         width:420px;
@@ -967,7 +968,7 @@ header .links ul .close_menu_btn,
     }
 
     header .links .logo_menu{
-        margin: 0 auto -40px;
+        margin: 20px auto ;
         display: block;
     }
 
@@ -1005,6 +1006,8 @@ header .links ul .close_menu_btn,
 }
 
 @media(max-width:500px){
+
+    
 
     header .top-nav .search{
         width: 100%;

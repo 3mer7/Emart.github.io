@@ -22,12 +22,6 @@ var swiper = new Swiper(".slide_sec", {
     slidesPerView:5,
     spaceBetween:30,
 
-    autoplay:{
-        delay: 2500
-    },
-
-    loop: true,
-
     breakpoints:{
         1600:{
             slidesPerView:5
