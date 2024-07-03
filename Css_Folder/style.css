@@ -566,7 +566,6 @@ header  .links .login a {
 .product .icons{
     display: flex;
     flex-direction: column;
-    gap: 10px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -603,6 +602,7 @@ header  .links .login a {
     cursor: pointer;
     transition: .3s ease;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .product .icons i.active{
@@ -757,7 +757,7 @@ header  .links .login a {
 }
 
 input::placeholder{
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .newsletter .container .newsletter_form input {
@@ -1552,6 +1552,10 @@ header .links ul .close_menu_btn,
 
     .checkout .ordersummary h1{
         font-size: 20px;
+    }
+
+    input::placeholder{
+        font-size: 10px;
     }
 
     .checkout .ordersummary .total p {
