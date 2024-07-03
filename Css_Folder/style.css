@@ -22,7 +22,7 @@
 
 body{
     background-color: #f5f6f9;
-    margin-top: 162px;
+    margin-top: 200px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -37,7 +37,12 @@ p{
 .consturction{
     background-color: var(--maincolor);
     width: 100%;
-    padding: 10px 5px;
+    padding: 7px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1006;
+    text-align: center;
 }
 
 .consturction h4{
@@ -67,6 +72,7 @@ header{
     right: 0;
     background-color: #fff;
     z-index: 1000;
+    padding-top: 30px;
 }
 
 header .top-nav{
@@ -942,10 +948,6 @@ header .links ul .close_menu_btn,
 }
 
 @media(max-width:900px){
-
-    body{
-        margin-top: 227px;
-    }
     header .top-nav {
         flex-wrap: wrap;
     }
@@ -1524,6 +1526,10 @@ header .links ul .close_menu_btn,
 }
 
 @media (max-width:1000px){
+
+    body{
+        margin-top: 270px;
+    }
 
     .banner{
         display: none;
